@@ -1,4 +1,4 @@
-#StringBuffer and StringBuilder
+# StringBuffer and StringBuilder
 The StringBuffer and StringBuilder classes are used when there is a necessity to make a lot of modifications 
 to Strings of characters.
 
@@ -11,7 +11,7 @@ is that StringBuilders methods are not thread safe (not synchronised).
 It is recommended to use StringBuilder whenever possible because it is faster than StringBuffer. 
 However, if the thread safety is necessary, the best option is StringBuffer objects.
 
-#Class StringBuilder
+# Class StringBuilder
 public final class StringBuilder
 extends Object
 implements Serializable, CharSequence
@@ -37,7 +37,7 @@ it is not necessary to allocate a new internal buffer. If the internal buffer ov
 Instances of StringBuilder are not safe for use by multiple threads. 
 If such synchronization is required then it is recommended that StringBuffer be used.
 
-#Class StringBuffer
+# Class StringBuffer
 public final class StringBuffer
 extends Object
 implements Serializable, CharSequence
